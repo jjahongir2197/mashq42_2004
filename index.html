@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Qo‘shish</title>
+</head>
+<body>
+
+<h2>2 ta son kiriting</h2>
+
+<form method="POST">
+
+    <input type="number" name="a">
+    <input type="number" name="b">
+
+    <button type="submit">Hisoblash</button>
+
+</form>
+
+{% if result %}
+<h3>Natija: {{ result }}</h3>
+{% endif %}
+
+</body>
+</html>
